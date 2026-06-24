@@ -1,81 +1,93 @@
-# Portfolio Website
+<div align="center">
 
-## 🌐 Live Demo
-**GitHub Pages Link:** [View Portfolio](https://snevj.github.io/Portfolio-Website/)
+# Sneh Vijayvargiya
 
----
+**B.Tech @ IIT Kharagpur · AI/ML Engineer · LLM Systems**
 
-## 📋 About
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sneh-vijayvergiya-86896a257/)
+[![X](https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white)](https://x.com/NotSoNerdGuy)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/Snevj)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)](https://huggingface.co/svjay)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat&logo=github-pages&logoColor=white)](https://snevj.github.io/Portfolio-Website/)
 
-This is a personal portfolio website showcasing projects, skills, and professional experience. The site is built with HTML and hosted on GitHub Pages.
-
-## 🚀 Features
-
-- Clean and modern design
-- Responsive layout
-- Easy to customize
-- Hosted on GitHub Pages (free hosting)
-
-## 📁 Project Structure
-
-```
-Portfolio-Website/
-├── index.html
-├── README.md
-└── ... (other assets)
-```
-
-## 🛠️ Technologies Used
-
-- **HTML5** - Structure and markup
-- **GitHub Pages** - Hosting
-
-## 💻 How to Use
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Snevj/Portfolio-Website.git
-   ```
-
-2. Navigate to the project directory:
-   ```bash
-   cd Portfolio-Website
-   ```
-
-3. Open `index.html` in your browser to preview locally
-
-4. Make any changes to the HTML files as needed
-
-5. Push your changes to GitHub to automatically update your live site
-
-## 🌐 GitHub Pages Setup
-
-Your portfolio is automatically deployed to GitHub Pages. Any changes you push to the `main` branch will be reflected at:
-```
-https://snevj.github.io/Portfolio-Website/
-```
-
-To enable GitHub Pages:
-1. Go to Repository Settings → Pages
-2. Select `main` branch as the source
-3. Save
-
-## 📝 Customization
-
-Edit `index.html` to:
-- Update your name and bio
-- Add project descriptions
-- Include links to your GitHub, LinkedIn, etc.
-- Customize colors and styling
-
-## 📧 Contact
-
-For inquiries, please reach out through the contact information provided on the portfolio website.
-
-## 📄 License
-
-This project is open source and available under the MIT License.
+</div>
 
 ---
 
-**Last Updated:** June 2026
+### About
+
+Building at the intersection of LLM fine-tuning, agentic AI, and production ML systems. Currently focused on post-training alignment methods — SFT, RL, and self-distillation. IIT Kharagpur, Ocean Engineering & Naval Architecture, 2026.
+
+---
+
+### Tech Stack
+
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+
+**AI & ML**
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
+
+**LLM Stack**
+
+![Unsloth](https://img.shields.io/badge/Unsloth-🦥-black?style=flat)
+![QLoRA](https://img.shields.io/badge/QLoRA-PEFT-blueviolet?style=flat)
+![TRL](https://img.shields.io/badge/TRL-SFT%20%7C%20SDPO-orange?style=flat)
+![GGUF](https://img.shields.io/badge/GGUF-4bit%20Quantization-green?style=flat)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat&logo=ollama&logoColor=white)
+
+**Tools & Infra**
+
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF4B4B?style=flat)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+
+---
+
+### Featured Projects
+
+| Project | Description | Stack |
+|--------|-------------|-------|
+| [**SDPO LLM Pipeline**](https://github.com/Snevj/Self-distillation-fine-tuning) | 3-stage alignment pipeline: Base → SFT → SDPO on Llama-3-8B. Self-distillation RL without external teacher | Unsloth · TRL · QLoRA · GGUF |
+| [**Custom GPT**](https://github.com/Snevj) | 124M param GPT-2 built from scratch with weight-tying & OpenAI weight injection | PyTorch |
+| [**Mistral-7B Fine-Tuning**](https://github.com/Snevj) | 4-bit QLoRA pipeline, 5GB VRAM, 2x speedup, 3200+ examples/sec | Unsloth · LoRA · TRL |
+| [**Interview Enhancer**](https://github.com/Snevj) | Multi-modal AI: ATS ranking, facial emotion CNN (92%), voice LSTM (87%) | PyTorch · OpenCV · LSTM |
+| [**Multi-Agent RAG System**](https://github.com/Snevj) | Fully local agentic RAG with CrewAI + LangChain + Llama 3.2 via Ollama | CrewAI · ChromaDB · Flask |
+
+---
+
+### GitHub Stats
+
+<div align="center">
+
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=Snevj&show_icons=true&theme=default&hide_border=true&count_private=true&hide=issues" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Snevj&layout=compact&theme=default&hide_border=true&langs_count=6" />
+
+</div>
+
+---
+
+### Currently
+
+- 🔬 Researching post-training alignment methods (SDPO, GRPO)
+- 🚀 Building: [SDPO Chat](https://huggingface.co/spaces/svjay/sdpo-chat) — live demo of fine-tuned Llama 3 8B
+- 📖 Reading: Reinforcement Learning with Rich Feedback
+
+---
+
+<div align="center">
+<sub>JEE Advanced AIR 10593 · 99.21 percentile JEE Mains · IIT Kharagpur 2026</sub>
+</div>
