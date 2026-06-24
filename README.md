@@ -1,6 +1,3 @@
-"""
-README for Sneh Vijayvargiya portfolio (rendered as Markdown)
-"""
 
 # Sneh Vijayvargiya
 
